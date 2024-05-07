@@ -17,6 +17,10 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    buildFeatures {
+         renderScript true
+     }
+
     defaultConfig {
         minSdkVersion _minSdkVersion
         targetSdkVersion _targetSdkVersion

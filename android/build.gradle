@@ -18,8 +18,8 @@ android {
     }
 
     buildFeatures {
-         renderScript true
-     }
+        renderScript true
+    }
 
     defaultConfig {
         minSdkVersion _minSdkVersion
